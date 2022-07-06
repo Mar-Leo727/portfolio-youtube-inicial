@@ -4,10 +4,61 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="css/styles.css" />
     <title>Portfolio</title>
   </head>
-  <body>
+  <body class="dark">
+    <header class="header">
+    <div class="switches">
+    <div id="toggle-theme" class="toggle-theme">
+     <img id="toggle-icon"  src="/portfolio-youtube-inicial/assets/icons/moon.svg" alt="icon theme" class="toggle-theme__icon">
+     <p id="toggle-text" class="toggle-theme__text">Dark Mode</p> 
+    </div>
+  </div>
+  <div id="toggle-colors" class="colors">
+
+  <div data-color="hsl(214, 84%, 56%)" class="colors__item colors__item--blue"></div>
+
+  <div data-color="hsl(150, 84%, 56%)"class="colors__item colors__item--green"></div>
+
+  <div data-color="hsl(276, 84%, 56%)"class="colors__item colors__item--purple"></div>
+
+  <div data-color="hsl(46, 84%, 56%)"class="colors__item colors__item--orange"></div>
+  </div>
+  </header>
+  <main class="main">
+    <section class="column column--left">
+      <article class="card card--profile">
+       <div class="card__image-container">
+        <img src="/portfolio-youtube-inicial/assets/images/profile.jpg" alt="">
+       </div> 
+       <div class="card__header">
+        <h2 class="card__title">Martín Brocos</h2>
+        <p class="card__subtitle">Desarrollador web full stack</p>
+      </div>
+        <div class="card__body">
+          <div class="card__link">
+            <i class="fas fa-envelope icon"></i>
+            <a href="mailto:leobroc77@gmail.com">leobroc77@gmail.com</a>
+          </div>
+            <div class="card__link">
+              <i class="fas fa-phone-alt icon"></i>
+              <a href="tel:4521222">+54 9 4521222</a>
+            </div>
+            <p class="card__text">
+            desde el 2020 incorporando conocimiento
+            de Html, CSS, Sass, Javascript, Java, git, github 
+            MySQL, Visual estudio Code.
+
+            </p>
+
+          
+        
+      </article>
+    </section>
+  </main>
+
     <script src="js/scripts.js"></script>
   </body>
 </html>
